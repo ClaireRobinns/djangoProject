@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thank you !!!</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body{
+            background: #212529;
+            }
+        .thanksPlate{
+            background: #212529;
+            color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Poppins', san-serif;
+            text-decoration: none;
+            transition: all .2s linear;
+            flex-direction: column;
+        }
+        h1{
+            font-size: 72px;
+        }
+        @media (max-width: 500px){
+            h1{
+                font-size: 24px;
+            }
+        }
+        @media (max-width: 768px){
+            h1{
+                font-size: 30px;
+
+            }
+        }
+        @media (max-width: 991px){
+            h1{
+                font-size: 42px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="thanksPlate">
+            <h1>Thank you for your choice.</h1>
+            <p>I will send you to your email. Please check your
+                <a class="text-primary" href="https://mail.google.com" style="text-decoration:none;">email</a>.</p>
+        <ul>
+            <li><a href="{% url 'home' %}#home">Home</a></li>
+            <li><a href="{% url 'home' %}#home">Album</a></li>
+            <li><a href="{% url 'home' %}#home">My Blog</a></li>
+        </ul>
+    </main>
+</body>
+</html>
