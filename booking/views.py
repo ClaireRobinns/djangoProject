@@ -59,8 +59,8 @@ def booking(request):
                 '''
                 try:
                     form.save()
-                    send_mail(subject, message=message,from_email='bobohm1898@gmail.com',
-                              recipient_list=[to], auth_password= 'JackieForever1',
+                    send_mail(subject, message=message,from_email='youaccount@email.com',
+                              recipient_list=[to], auth_password= '------------',
                               fail_silently=False, html_message=html_message)
                     return redirect('thanks')
                 except BadHeaderError:
