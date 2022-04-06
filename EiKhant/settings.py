@@ -160,8 +160,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 
 EMAIL_PORT = 587
 
-EMAIL_HOST_USER = 'bobohm1898@gmail.com'
+EMAIL_HOST_USER = 'myaccount@email.com'
 
-EMAIL_HOST_PASSWORD = 'JackieForever1'
+EMAIL_HOST_PASSWORD = '--------------'
 
 EMAIL_USE_TLS = True
